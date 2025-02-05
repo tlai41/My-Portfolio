@@ -1,0 +1,177 @@
+/* 
+  File Name: index.css
+  Student's Name: Tsz Ching Lai
+  Student ID: 301496327
+  Date: 2025-02-04
+*/
+
+:root {
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+   line-height: 1.5;
+   font-weight: 400;
+   color-scheme: light dark;
+   color: rgba(255, 255, 255, 0.87);
+   background-color: #242424;
+   font-synthesis: none;
+   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+  }
+  a {
+   font-weight: 500;
+   color: #35397e;/* link color */
+   text-decoration: inherit;
+  }
+  a:hover {
+   color: #249bf4;
+   /* 747bff */
+   padding-bottom: 0.2rem;
+   border-bottom: 2px solid #249bf4;
+  }
+  body {
+   margin: 0;
+  
+   place-items: center;
+   min-width: 320px;
+   min-height: 100vh;
+  }
+  h1 {
+   font-size: 3em;
+   line-height: 1.1;
+  }
+  button {
+   border-radius: 8px;
+   border: 1px solid transparent;
+   padding: 0.6em 1.2em;
+   font-size: 1em;
+   font-weight: 500;
+   font-family: inherit;
+   background-color: #1a1a1a;
+   cursor: pointer;
+   transition: border-color 0.25s;
+  }
+  button:hover {
+   border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+   outline: 4px auto -webkit-focus-ring-color;
+  }
+  .imageSize {
+   width: 150px; 
+   height: auto;
+   /* border-radius: 50%; *//*Circular photo*/ 
+   display: block; /* Center in the container */
+   margin: 0 auto; /* Center alignment */
+}
+div{
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 20px;
+}
+.contact {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+}
+.contact-info {
+   background-color: #f9f9f9;
+   padding: 20px;
+   border-radius: 5px;
+   margin-bottom: 20px;
+}
+.contact-form {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+   display: flex;
+   flex-direction: column;
+}
+input, textarea {
+   margin: 10px 0;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+}
+.home {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+   /* background-image: url('.jpg'); */
+   background: linear-gradient(to top, #f9fdff 0%,#73AADC 180%);
+   background-size: cover;
+
+   text-align: center;
+   padding: 100px 20px;
+}
+
+.cta-button {
+   background-color: #007bff;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.cta-button:hover {
+   background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+   display: flex;
+   justify-content: space-around;
+   margin: 20px 0;
+}
+
+.feature {
+   text-align: center;
+}
+
+/* Testimonials Section */
+.testimonials {
+   background-color: #f9f9f9;
+   padding: 20px;
+   margin: 20px 0;
+}
+
+/* Projects Section */
+.projects {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.project {
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px;
+   width: 45%; /* Adjust based on your layout */
+}
+  @media (prefers-color-scheme: light) {
+   :root {
+   color: #213547;/* font color */
+   background-color: #ffffff;
+   }
+   a:hover {
+   color: #249bf4;
+   }
+   button {
+   background-color: #f9f9f9;
+   }
+  }
+  nav {
+  float:right;
+  font-size:x-large;
+  }
+
+  
